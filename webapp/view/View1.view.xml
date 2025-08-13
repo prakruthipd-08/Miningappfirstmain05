@@ -1,0 +1,48 @@
+<mvc:View controllerName="app.miningapp05.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}"> 
+    
+  <VBox>
+    <HBox>
+          <!--It’s like a search box and also helps the app know what the user is looking for.-->
+          <Input id="idLocFilter" placeholder="Filter by ID" liveChange=".onFilter" width="200px"/>
+          <Input id="idNameFilter" placeholder="Filter by Location" liveChange=".onFilter" width="200px"
+          showValueHelp="true" valueHelpRequest="onF4Help"/>
+
+    </HBox>
+
+    
+
+    
+    <!-- Creating a Table -->
+    <Table id="idTable" items="{/locations}" inset="false" growing="true" growingThreshold="10"
+    selectionChange="onRowPress" mode="SingleSelectMaster">   
+  
+    <!--growing="true" Improves performance by loading only a few rows initially and more as the user scrolls or clicks "Load More".-->
+    <!--inset="false" means the table will stretch to the full width of its container.-->
+    <!--growingThreshold="10" Specifies how many rows to load at a time when growing is enabled.-->
+      <columns>
+        <Column>
+          <Text text="ID" />
+        </Column>
+        <Column>
+          <Text text="LOCATION" />
+        </Column>
+      </columns>
+
+     <!-- ColumnListItem is used to define each row in the table, and cells inside it are used to display the data for each column in that row. -->
+      <items>
+        <ColumnListItem>
+          <cells>
+           <Text text="{id}"/>  
+           <!--If you don't put it inside the curly braces, you won't get the data. It will display the id instead of the data, so make sure to put curly braces and write the id inside them.-->
+           <Text text="{name}"/>
+          </cells>
+        </ColumnListItem>
+    </items>
+
+      </Table> 
+  </VBox>  
+    </Page>
+</mvc:View>

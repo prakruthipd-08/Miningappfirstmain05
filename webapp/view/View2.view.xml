@@ -1,0 +1,34 @@
+<mvc:View controllerName="app.miningapp05.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="page3" title="{i18n>title1}">
+      
+    
+  <VBox>
+        <!-- Create a SimpleForm to display the address details -->
+        <f:SimpleForm editable="false" xmlns="sap.m">
+      
+        <Label text="Location" /> 
+        <Text text="{name}" />
+        
+        <Label text="Resources"/>
+        <Text text="{resources}"/>
+
+        <Label text="Cost"/>
+        <Text text="{cost}"/>
+
+        <Label text="Man Days"/>
+        <Text text="{manDays}"/>
+
+        <Label text="Possible Outcome"/>
+        <Text text="{probabilityOfPositiveOutcome}"/>
+       
+  
+        </f:SimpleForm>
+        
+            
+  </VBox>  
+    </Page>
+</mvc:View>
+

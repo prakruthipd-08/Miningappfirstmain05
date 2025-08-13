@@ -1,0 +1,123 @@
+{
+  "_version": "1.65.0",
+  "sap.app": {
+    "id": "app.miningapp05",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{Mining App}}",  
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.18.2",
+      "toolsId": "ceea7818-765c-4342-ae7c-f4ba7356a361"
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "miningdetails-read": {
+          "semanticObject": "miningdetails",
+          "action": "read",
+          "title": "{{miningdetails-read.flpTitle}}",
+          "subTitle": "{{miningdetails-read.flpSubtitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.138.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "app.miningapp05.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "app.miningapp05.view",
+        "async": true,
+        "viewPath": "app.miningapp05.view"
+      },
+      "routes": [
+        {
+          "name": "RouteView1",
+          "pattern": ":?query:",
+          "target": [
+            "TargetView1"
+          ]
+        },
+        {
+          "name":"RouteView2",
+          "pattern": "View2/{id}",
+          "target": [
+            "TargetView2"
+          ]
+        }
+      ],
+      "targets": {   
+        "TargetView1": {  
+          "id": "View1",
+          "name": "View1"
+        },
+        "TargetView2": {
+          "id": "View2",
+          "name": "View2"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "app.miningapp05.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

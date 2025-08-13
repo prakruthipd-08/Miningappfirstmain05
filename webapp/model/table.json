@@ -1,0 +1,271 @@
+{
+    "locations": [
+        {
+            "id": "L001",
+            "name": "Location A"
+        },
+
+        {
+            "id": "L002",
+            "name": "Location B"
+        },
+        
+        {
+            "id": "L003",
+            "name": "Location C"  
+          },
+      
+          {
+            "id": "L004",
+            "name": "Location D"   
+          },
+      
+          {
+            "id": "L005",
+            "name": "Location E"
+          },
+      
+          {
+            "id": "L006",
+            "name": "Location F"  
+          },
+      
+          {
+            "id": "L007",
+            "name": "Location G"
+          },
+      
+          {
+            "id": "L008",
+            "name": "Location H"
+          },
+      
+          {
+            "id": "L009",
+            "name": "Location I"   
+          },
+      
+          {
+            "id": "L010",
+            "name": "Location J"
+          },
+      
+          {
+            "id": "L011",
+            "name": "Location K"
+          },
+      
+          {
+            "id": "L012",
+            "name": "Location L"
+          },
+      
+          {
+            "id": "L013",
+            "name": "Location M"
+          },
+      
+          {
+            "id": "L014",
+            "name": "Location N"
+          },
+      
+          {
+            "id": "L015",
+            "name": "Location O"
+          },
+      
+          {
+            "id": "L016",
+            "name": "Location P"
+          },
+      
+          {
+            "id": "L017",
+            "name": "Location Q"
+          },
+      
+          {
+            "id": "L018",
+            "name": "Location R"
+          },
+      
+          {
+            "id": "L019",
+            "name": "Location S"
+          },
+      
+          {
+            "id": "L020",
+            "name": "Location T"
+          }
+        
+    ],
+
+    "mineoperations": [
+      {
+        "name": "Location A",
+        "resources": "Gold",
+        "cost": "2000000 USD",
+        "manDays": "120",
+        "probabilityOfPositiveOutcome": "85"
+      },
+      
+      {
+        "name": "Location B",
+        "resources":  "Copper",
+        "cost": "1500000 USD", 
+        "manDays": "100",
+        "probabilityOfPositiveOutcome":"75"   
+      },
+  
+      {
+        "name": "Location C",
+        "resources": "Silver",
+        "cost": "1200000 USD",        
+        "manDays": "90",      
+        "probabilityOfPositiveOutcome": "95"     
+      },
+  
+      {
+        "name": "Location D",
+        "resources":  "Iron Ore",
+        "cost":  "3000000 USD",      
+        "manDays": 150,   
+        "probabilityOfPositiveOutcome": 80      
+      },
+  
+      {
+        "name": "Location E",
+        "resources": "Coal",
+        "cost": "2500000 USD",  
+        "manDays": 140,
+        "probabilityOfPositiveOutcome": 70
+      },
+  
+      {
+        "name": "Location F",
+        "resources": "Platinum",
+        "cost":  "5000000 USD",
+        "manDays": 200,
+        "probabilityOfPositiveOutcome": 90     
+      },
+  
+      {
+        "name": "Location G",
+        "resources":  "Diamonds",
+        "cost":  "10000000 USD",        
+        "manDays": 300,   
+        "probabilityOfPositiveOutcome": 95
+      },
+  
+      {
+        "name": "Location H",
+        "resources":  "Nickel",
+        "cost":  "1800000 USD",       
+        "manDays":130,
+        "probabilityOfPositiveOutcome": 80
+      },
+  
+      {
+        "name": "Location I",
+        "resources": "Zinc",
+        "cost":  "1200000 USD",        
+        "manDays": 90,
+        "probabilityOfPositiveOutcome": 60     
+      },
+  
+      {
+        "name": "Location J",
+        "resources":  "Lead",
+        "cost":"1500000 USD",       
+        "manDays":100,
+        "probabilityOfPositiveOutcome": 85
+      },
+  
+      {
+        "name": "Location K",
+        "resources":  "Uranium",
+        "cost": "10000000 USD",
+        "manDays": "400",
+        "probabilityOfPositiveOutcome": 85 
+      },
+  
+      {
+        "name": "Location L",
+        "resources":  "Tin",
+        "cost":  "2000000 USD",
+        "manDays": 130,
+        "probabilityOfPositiveOutcome": 70
+      },
+  
+      {
+        "name": "Location M",
+        "resources":  "Bauxite",
+        "cost":"3500000 USD",       
+        "manDays": "160",     
+        "probabilityOfPositiveOutcome": 80
+      },
+  
+      {
+        "name": "Location N",
+        "resources": "Manganese",
+        "cost": "2200000 USD",       
+        "manDays": 13,    
+        "probabilityOfPositiveOutcome": 75
+      },
+  
+      {
+        "name": "Location O",
+        "resources":"Chromite",    
+        "cost":  "1000000 USD",       
+        "manDays": 80,
+        "probabilityOfPositiveOutcome": 55
+      },
+  
+      {
+        "name": "Location P",
+        "resources":"Cobalt",    
+        "cost": "1600000 USD",
+         "manDays":  120 ,
+        "probabilityOfPositiveOutcome": 70
+      },
+  
+      {
+        "name": "Location Q",
+        "resources": "Lithium",  
+        "cost": "4000000 USD",
+        "manDays": 140,
+        "probabilityOfPositiveOutcome": 85
+      },
+  
+      {
+        "name": "Location R",
+        "resources": "Rare Earth Elements",  
+        "cost": "7000000 USD",
+        "manDays": 200,
+        "probabilityOfPositiveOutcome": 90
+      },
+  
+      {
+        "name": "Location S",
+        "resources":"Titanium",
+        "cost":  "2500000 USD",       
+        "manDays": 120,
+        "probabilityOfPositiveOutcome": 80
+      },
+  
+      {
+        "name": "Location T",
+        "resources":"Aluminum",       
+        "cost": "1800000 USD",        
+        "manDays":  110,
+        "probabilityOfPositiveOutcome": 75
+      }
+    
+
+    ]
+
+    
+    
+}

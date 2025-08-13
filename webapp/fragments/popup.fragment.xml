@@ -1,0 +1,10 @@
+<!-- This code is used to show a reusable selection dialog for choosing items(Used in searching name of the location).-->
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+<!-- Creates a SelectDialog: A pop-up dialog for selecting items. -->
+    <SelectDialog items="{/locations}" confirm="onConfirm">
+    <!-- StandardListItem used to display a single row in a list -->
+        <StandardListItem
+             title="{name}" />
+        </SelectDialog> 
+</core:FragmentDefinition>
+
