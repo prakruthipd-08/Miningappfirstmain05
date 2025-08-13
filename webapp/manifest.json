@@ -87,7 +87,7 @@
         "viewPath": "app.miningapp05.view"
       },
       "routes": [
-        {
+    git clone https://github.com/prakruthipd-08/Miningapp05.git    {
           "name": "RouteView1",
           "pattern": ":?query:",
           "target": [
